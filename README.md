@@ -107,13 +107,16 @@ These visualizations allow:
 *   seaborn
 *   tqdm
 
-## References
 
-* https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/style_transfer.ipynb
-* https://github.com/gargimahale/Doodle
-* https://arxiv.org/pdf/1611.07865v2
-* https://tomhenighan.com/pdfs/cs231n-project.pdf
+## 📚 Referencias
 
-### Imagenes
-* https://www.gaceta.unam.mx/wp-content/uploads/2021/08/xolodes.jpg
-* https://mymodernmet.com/wp/wp-content/uploads/2022/04/Henri-Edmond-Cross-puntillismo.jpeg
+* [TensorFlow Style Transfer Tutorial](https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/style_transfer.ipynb)
+* [Doodle: Style Transfer Tool](https://github.com/gargimahale/Doodle)
+* [Exploring the Structure of the Style Space](https://arxiv.org/pdf/1611.07865v2)
+* [CS231n Style Transfer Project](https://tomhenighan.com/pdfs/cs231n-project.pdf)
+
+
+## 🖼️ Imágenes de Ejemplo
+
+* Contenido: [Xolo de la UNAM](https://www.gaceta.unam.mx/wp-content/uploads/2021/08/xolodes.jpg)
+* Estilo: [Henri-Edmond Cross – Puntillismo](https://mymodernmet.com/wp/wp-content/uploads/2022/04/Henri-Edmond-Cross-puntillismo.jpeg)
