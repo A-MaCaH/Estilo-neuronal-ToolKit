@@ -31,16 +31,6 @@ An interactive notebook (Jupyter Notebook) that explains the fundamentals of neu
   </div>
 
 </div>
-#contenedor {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#contenedor > div {
-  width: 50%;
-}
-
 
 *   Spatial style control, applying different styles in specific regions of the image
   
