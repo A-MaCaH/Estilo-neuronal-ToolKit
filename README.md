@@ -14,8 +14,8 @@ An interactive notebook (Jupyter Notebook) that explains the fundamentals of neu
   <img src="https://github.com/user-attachments/assets/274b4ee6-3285-4533-9de5-0b7e72debd6b" width="512">
 
 *   Calculation of content and style losses (Gram matrices)
-  <img src="https://github.com/user-attachments/assets/be70582a-f4ec-48eb-8081-704d44fbee88)" width="512">
-  <img src="https://github.com/user-attachments/assets/c6ae7510-e146-4af9-b013-1385d76b1a15" width="512">
+  <img src="https://github.com/user-attachments/assets/be70582a-f4ec-48eb-8081-704d44fbee88" width="512">
+  <img src="https://github.com/user-attachments/assets/25e38410-7c04-450f-93ed-d40c7d285813" width="512">
 
 *   Optimization to generate an image that combines content and style
 <div style="display: flex; gap: 10px;">
@@ -31,6 +31,15 @@ An interactive notebook (Jupyter Notebook) that explains the fundamentals of neu
   </div>
 
 </div>
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#contenedor > div {
+  width: 50%;
+}
 
 
 *   Spatial style control, applying different styles in specific regions of the image
