@@ -11,11 +11,11 @@ The project is divided into three main parts:
 An interactive notebook (Jupyter Notebook) that explains the fundamentals of neural style transfer using PyTorch, including:
 
 *   Feature extraction with VGG19
-  ![imagen](https://github.com/user-attachments/assets/274b4ee6-3285-4533-9de5-0b7e72debd6b)
+  <img src="https://github.com/user-attachments/assets/274b4ee6-3285-4533-9de5-0b7e72debd6b" width="225">
 
 *   Calculation of content and style losses (Gram matrices)
-  ![imagen](https://github.com/user-attachments/assets/be70582a-f4ec-48eb-8081-704d44fbee88)
-  ![imagen](https://github.com/user-attachments/assets/c6ae7510-e146-4af9-b013-1385d76b1a15)
+  <img src="https://github.com/user-attachments/assets/be70582a-f4ec-48eb-8081-704d44fbee88)" width="225">
+  <img src="https://github.com/user-attachments/assets/c6ae7510-e146-4af9-b013-1385d76b1a15" width="225">
 
 *   Optimization to generate an image that combines content and style
 ![gradients](https://github.com/user-attachments/assets/d4a823bb-8e33-4910-9f8d-2b2287c09545)
