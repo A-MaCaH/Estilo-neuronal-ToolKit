@@ -1,27 +1,27 @@
 # 🧠 Neural Style Transfer Toolkit
 
-Este repositorio contiene un conjunto de herramientas y tutoriales para trabajar con transferencia de estilo neuronal, incluyendo control espacial, aumento de datos estilizados y análisis de estilos con técnicas de reducción de dimensionalidad.
+This repository contains a set of tools and tutorials for working with neural style transfer, including spatial control, stylized data augmentation, and style analysis with dimensionality reduction techniques.
 
-Este proyecto está inspirado en mi tesis de maestría "Transferencia de estilo neuronal en pequeños conjuntos de imágenes médicas". Aunque no es el código exacto utilizado en la tesis, gran parte de la inspiración y los conceptos provienen de ella.
+This project is inspired by my master's thesis "Neural style transfer in small medical image sets". Although it is not the exact code used in the thesis, much of the inspiration and concepts come from it.
 
-El proyecto está dividido en tres partes principales:
+The project is divided into three main parts:
 
-## 1. 📘 Tutorial: Transferencia de Estilo Neuronal y Control Espacial
+## 1. 📘 Tutorial: Neural Style Transfer and Spatial Control
 
-Un cuaderno interactivo (Jupyter Notebook) que explica los fundamentos de la transferencia de estilo neuronal utilizando PyTorch, incluyendo:
+An interactive notebook (Jupyter Notebook) that explains the fundamentals of neural style transfer using PyTorch, including:
 
-*   Extracción de características con VGG19
-*   Cálculo de pérdidas de contenido y estilo (matrices de Gram)
-*   Optimización para generar una imagen que combine contenido y estilo
-*   Control espacial de estilo, aplicando diferentes estilos en regiones específicas de la imagen
+*   Feature extraction with VGG19
+*   Calculation of content and style losses (Gram matrices)
+*   Optimization to generate an image that combines content and style
+*   Spatial style control, applying different styles in specific regions of the image
 
-Este tutorial está diseñado para ser educativo y fácil de modificar, ideal para estudiantes y desarrolladores que quieran entender el funcionamiento interno del estilo neuronal.
+This tutorial is designed to be educational and easy to modify, ideal for students and developers who want to understand the inner workings of neural style.
 
-## 2. 🧪 Aumento de Datos con Estilo Neuronal
+## 2. 🧪 Data Augmentation with Neural Style
 
-Este módulo permite generar datasets aumentados mediante estilos neuronales. Toma como entrada una carpeta estructurada por clases (una carpeta por clase con imágenes dentro) y genera un número específico de imágenes estilizadas por clase. Ideal para tareas de clasificación o robustez con redes convolucionales.
+This module allows generating augmented datasets using neural styles. It takes a class-structured folder as input (one folder per class with images inside) and generates a specific number of stylized images per class. Ideal for classification or robustness tasks with convolutional neural networks.
 
-**Entrada:**
+**Input:**
 
 ```
 dataset/
@@ -32,52 +32,52 @@ dataset/
        └── ...
 ```
 
-**Parámetros configurables:**
+**Configurable parameters:**
 
-*   Número de imágenes de salida por clase
-*   Lista de estilos (imagen o carpeta)
-*   Dimensiones de salida
-*   Estilo aleatorio o fijo por clase
+*   Number of output images per class
+*   List of styles (image or folder)
+*   Output dimensions
+*   Random or fixed style per class
 
-**Salida:**
-Un nuevo conjunto de imágenes estilizadas por clase, listo para entrenamiento.
+**Output:**
+A new set of stylized images per class, ready for training.
 
-## 3. 🧬 Extracción y Análisis de Estilos
+## 3. 🧬 Style Extraction and Analysis
 
-Este programa tiene dos modos:
+This program has two modes:
 
-### a. Extracción de Estilos
+### a. Style Extraction
 
-Extrae representaciones de estilo (matrices de Gram) desde una carpeta de imágenes usando una red VGG preentrenada. Se almacenan los vectores de estilo para cada imagen, facilitando su reutilización o análisis posterior.
+Extracts style representations (Gram matrices) from a folder of images using a pre-trained VGG network. Style vectors are stored for each image, facilitating their reuse or later analysis.
 
-### b. Análisis de Estilos
+### b. Style Analysis
 
-Permite visualizar la similitud entre estilos utilizando:
+Allows visualizing the similarity between styles using:
 
-*   Reducción de dimensionalidad (PCA, t-SNE, UMAP)
-*   Matriz de distancias euclidianas
-*   Matriz de correlaciones
+*   Dimensionality reduction (PCA, t-SNE, UMAP)
+*   Euclidean distance matrix
+*   Correlation matrix
 
-Estas visualizaciones permiten:
+These visualizations allow:
 
-*   Explorar la estructura del espacio de estilos
-*   Identificar grupos de estilos similares
-*   Evaluar diversidad de un conjunto de estilos
+*   Exploring the structure of the style space
+*   Identifying groups of similar styles
+*   Evaluating the diversity of a set of styles
 
-## 📂 Estructura del Repositorio
+## 📂 Repository Structure
 
 ```
 ├── tutorial/
-│   └── neural_style_transfer.ipynb      # Parte 1: Tutorial
+│   └── neural_style_transfer.ipynb      # Part 1: Tutorial
 ├── augment/
-│   └── stylized_data_generator.py       # Parte 2: Aumento de datos
+│   └── stylized_data_generator.py       # Part 2: Data Augmentation
 ├── style_extractor/
-│   ├── extract_styles.py                # Parte 3a: Extracción
-│   └── analyze_styles.py                # Parte 3b: Análisis
+│   ├── extract_styles.py                # Part 3a: Extraction
+│   └── analyze_styles.py                # Part 3b: Analysis
 └── README.md
 ```
 
-## 🛠️ Requisitos
+## 🛠️ Requirements
 
 *   Python 3.8+
 *   PyTorch
@@ -85,15 +85,15 @@ Estas visualizaciones permiten:
 *   scikit-learn
 *   matplotlib
 *   seaborn
-*   UMAP (opcional)
+*   UMAP (optional)
 *   tqdm
 
-## 🧪 Aplicaciones
+## 🧪 Applications
 
-*   Aumento de datos para modelos de visión por computadora
-*   Estudio del espacio de estilos artísticos
-*   Experimentación educativa sobre estilo neuronal
+*   Data augmentation for computer vision models
+*   Study of the artistic style space
+*   Educational experimentation on neural style
 
-## Referencias
+## References
 
-Aquí puedes listar los artículos, libros o recursos que fueron importantes para tu trabajo.
+Here you can list the articles, books, or resources that were important for your work.
