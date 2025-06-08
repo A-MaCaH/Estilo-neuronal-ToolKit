@@ -11,15 +11,27 @@ The project is divided into three main parts:
 An interactive notebook (Jupyter Notebook) that explains the fundamentals of neural style transfer using PyTorch, including:
 
 *   Feature extraction with VGG19
-  <img src="https://github.com/user-attachments/assets/274b4ee6-3285-4533-9de5-0b7e72debd6b" width="225">
+  <img src="https://github.com/user-attachments/assets/274b4ee6-3285-4533-9de5-0b7e72debd6b" width="512">
 
 *   Calculation of content and style losses (Gram matrices)
-  <img src="https://github.com/user-attachments/assets/be70582a-f4ec-48eb-8081-704d44fbee88)" width="225">
-  <img src="https://github.com/user-attachments/assets/c6ae7510-e146-4af9-b013-1385d76b1a15" width="225">
+  <img src="https://github.com/user-attachments/assets/be70582a-f4ec-48eb-8081-704d44fbee88)" width="512">
+  <img src="https://github.com/user-attachments/assets/c6ae7510-e146-4af9-b013-1385d76b1a15" width="512">
 
 *   Optimization to generate an image that combines content and style
-![gradients](https://github.com/user-attachments/assets/d4a823bb-8e33-4910-9f8d-2b2287c09545)
-![style_transfer(1)](https://github.com/user-attachments/assets/5cbe44d5-825f-4d6f-8a6a-b3f14e2638e0)
+<div style="display: flex; gap: 10px;">
+
+  <div style="flex: 1;">
+    <h4>🧠 Gift de Gradientes</h4>
+    <img src="https://github.com/user-attachments/assets/d4a823bb-8e33-4910-9f8d-2b2287c09545" width="512">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>🖼️ Gift de resultado</h4>
+    <img src="https://github.com/user-attachments/assets/5cbe44d5-825f-4d6f-8a6a-b3f14e2638e0" width="512">
+  </div>
+
+</div>
+
 
 *   Spatial style control, applying different styles in specific regions of the image
   
