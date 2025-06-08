@@ -99,21 +99,21 @@ These visualizations allow:
 
 ## 🛠️ Requirements
 
-*   Python 3.8+
+*   Python 3.8
 *   PyTorch
 *   torchvision
 *   scikit-learn
 *   matplotlib
 *   seaborn
-*   UMAP (optional)
 *   tqdm
-
-## 🧪 Applications
-
-*   Data augmentation for computer vision models
-*   Study of the artistic style space
-*   Educational experimentation on neural style
 
 ## References
 
-Here you can list the articles, books, or resources that were important for your work.
+* https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/style_transfer.ipynb
+* https://github.com/gargimahale/Doodle
+* https://arxiv.org/pdf/1611.07865v2
+* https://tomhenighan.com/pdfs/cs231n-project.pdf
+
+### Imagenes
+* https://www.gaceta.unam.mx/wp-content/uploads/2021/08/xolodes.jpg
+* https://mymodernmet.com/wp/wp-content/uploads/2022/04/Henri-Edmond-Cross-puntillismo.jpeg
