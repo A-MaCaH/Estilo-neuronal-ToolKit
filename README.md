@@ -22,12 +22,12 @@ An interactive notebook (Jupyter Notebook) that explains the fundamentals of neu
 
   <div style="flex: 1;">
     <h4>🧠 Gift de Gradientes</h4>
-    <img src="https://github.com/user-attachments/assets/d4a823bb-8e33-4910-9f8d-2b2287c09545" width="512">
+    <img src="https://github.com/user-attachments/assets/d4a823bb-8e33-4910-9f8d-2b2287c09545" width="224">
   </div>
 
   <div style="flex: 1;">
     <h4>🖼️ Gift de resultado</h4>
-    <img src="https://github.com/user-attachments/assets/5cbe44d5-825f-4d6f-8a6a-b3f14e2638e0" width="512">
+    <img src="https://github.com/user-attachments/assets/5cbe44d5-825f-4d6f-8a6a-b3f14e2638e0" width="224">
   </div>
 
 </div>
