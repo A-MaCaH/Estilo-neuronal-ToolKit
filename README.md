@@ -37,7 +37,7 @@ An interactive notebook (Jupyter Notebook) that explains the fundamentals of neu
 
 This tutorial is designed to be educational and easy to modify, ideal for students and developers who want to understand the inner workings of neural style.
 
-## 2. 🧪 Data Augmentation with Neural Style
+## 2. 🧪 Data Augmentation with Neural Style (building)
 
 This module allows generating augmented datasets using neural styles. It takes a class-structured folder as input (one folder per class with images inside) and generates a specific number of stylized images per class. Ideal for classification or robustness tasks with convolutional neural networks.
 
@@ -62,7 +62,7 @@ dataset/
 **Output:**
 A new set of stylized images per class, ready for training.
 
-## 3. 🧬 Style Extraction and Analysis
+## 3. 🧬 Style Extraction and Analysis (building)
 
 This program has two modes:
 
@@ -87,14 +87,7 @@ These visualizations allow:
 ## 📂 Repository Structure
 
 ```
-├── tutorial/
-│   └── neural_style_transfer.ipynb      # Part 1: Tutorial
-├── augment/
-│   └── stylized_data_generator.py       # Part 2: Data Augmentation
-├── style_extractor/
-│   ├── extract_styles.py                # Part 3a: Extraction
-│   └── analyze_styles.py                # Part 3b: Analysis
-└── README.md
+
 ```
 
 ## 🛠️ Requirements
